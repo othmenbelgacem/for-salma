@@ -500,7 +500,7 @@
   <div class="card">
     <div class="deco-row">🌸 🎮 🌸</div>
     <h1 class="display-title">Win to continue! 💪</h1>
-    <p class="subtitle">You are ❤️ — Beat the computer!</p>
+    <p class="subtitle">You need to Win !</p>
     <div id="board"></div>
     <p id="game-status">Your turn!</p>
     <button class="btn btn-secondary" onclick="resetGame()" style="margin-top:1rem;font-size:0.85rem;padding:0.6rem 1.5rem;">🔄 Reset</button>
@@ -567,7 +567,7 @@
   <div class="popup-card">
     <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDZ5cWlrdjVtcHBlZHF4dHg1M2ttYWMzZW5xbjhqdGQ2czhjcWJhMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gTtaTV1m4YL3NLMdqN/giphy.gif" alt="Try again!" style="width:min(180px,50vw);border-radius:1.2rem;margin-bottom:0.8rem;">
     <p style="font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--deep-pink);font-weight:700;margin-bottom:0.5rem;">Aww, so close! 😢</p>
-    <p style="color:#b06080;font-size:0.95rem;margin-bottom:1rem;">You can do it! Try again 💪</p>
+    <p style="color:#b06080;font-size:0.95rem;margin-bottom:1rem;">You can do it, Chatoraaa! Try again 💪</p>
     <button class="btn btn-primary" onclick="closeLose()">Try Again 🌸</button>
   </div>
 </div>
@@ -607,7 +607,7 @@
     alt="Gift for you!"
   >
   <p class="final-text">"For the most beautiful girl in my life — Salma ❤️"</p>
-  <p class="final-sign">Lucky me - Othmen 💜</p>
+  <p class="final-sign">Lucky me Othmen. 💜</p>
 </div>
 
 <script>
@@ -637,7 +637,7 @@ function goTo(id) {
 // ─── TIC TAC TOE ───
 let board, current, gameOver;
 const WIN = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
-const PLAYER = '❤️', AI = '💙';
+const PLAYER = 'X', AI = 'O';
 
 function initBoard() {
   const b = document.getElementById('board');
